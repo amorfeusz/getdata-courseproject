@@ -1,0 +1,110 @@
+
+#the following two identify the subject and activity for the data gathered
+subject
+	subject id of study participant, 30 volunteers within an age bracket of 19-48 years
+		1...30
+activity
+	description of activity performed when wearing a smartphone
+		1 WALKING
+		2 WALKING_UPSTAIRS
+
+		3 WALKING_DOWNSTAIRS
+	
+	4 SITTING
+
+		5 STANDING
+
+		6 LAYING
+
+
+#the following are calculated means of the following Time Dimension Jerk signals
+timebodyaccmeanx
+timebodyaccmeany
+timebodyaccmeanz
+timebodyaccstdx
+timebodyaccstdy
+timebodyaccstdz
+timegravityaccmeanx
+timegravityaccmeany
+timegravityaccmeanz
+timegravityaccstdx
+timegravityaccstdy
+timegravityaccstdz
+timebodyaccjerkmeanx
+timebodyaccjerkmeany
+timebodyaccjerkmeanz
+timebodyaccjerkstdx
+timebodyaccjerkstdy
+timebodyaccjerkstdz
+timebodygyroscopemeanx
+timebodygyroscopemeany
+timebodygyroscopemeanz
+timebodygyroscopestdx
+timebodygyroscopestdy
+timebodygyroscopestdz
+timebodygyroscopejerkmeanx
+timebodygyroscopejerkmeany
+timebodygyroscopejerkmeanz
+timebodygyroscopejerkstdx
+timebodygyroscopejerkstdy
+timebodygyroscopejerkstdz
+timebodyaccmagmean
+timebodyaccmagstd
+timegravityaccmagmean
+timegravityaccmagstd
+timebodyaccjerkmagmean
+timebodyaccjerkmagstd
+timebodygyroscopemagmean
+timebodygyroscopemagstd
+timebodygyroscopejerkmagmean
+timebodygyroscopejerkmagstd
+
+#the following are calculated means of the frequency domain signals 
+frequencybodyaccmeanx
+frequencybodyaccmeany
+frequencybodyaccmeanz
+frequencybodyaccstdx
+frequencybodyaccstdy
+frequencybodyaccstdz
+frequencybodyaccmeanfreqx
+frequencybodyaccmeanfreqy
+frequencybodyaccmeanfreqz
+frequencybodyaccjerkmeanx
+frequencybodyaccjerkmeany
+frequencybodyaccjerkmeanz
+frequencybodyaccjerkstdx
+frequencybodyaccjerkstdy
+frequencybodyaccjerkstdz
+frequencybodyaccjerkmeanfreqx
+frequencybodyaccjerkmeanfreqy
+frequencybodyaccjerkmeanfreqz
+frequencybodygyroscopemeanx
+frequencybodygyroscopemeany
+frequencybodygyroscopemeanz
+frequencybodygyroscopestdx
+frequencybodygyroscopestdy
+frequencybodygyroscopestdz
+frequencybodygyroscopemeanfreqx
+frequencybodygyroscopemeanfreqy
+frequencybodygyroscopemeanfreqz
+frequencybodyaccmagmean
+frequencybodyaccmagstd
+frequencybodyaccmagmeanfreq
+frequencybodybodyaccjerkmagmean
+frequencybodybodyaccjerkmagstd
+frequencybodybodyaccjerkmagmeanfreq
+frequencybodybodygyroscopemagmean
+frequencybodybodygyroscopemagstd
+frequencybodybodygyroscopemagmeanfreq
+frequencybodybodygyroscopejerkmagmean
+frequencybodybodygyroscopejerkmagstd
+frequencybodybodygyroscopejerkmagmeanfreq
+
+#the following are calculated means of additional vectors obtained by averaging the signals in a signal window sample
+angletimebodyaccmeangravity
+angletimebodyaccjerkmeangravitymean.
+angletimebodygyroscopemeangravitymean
+angletimebodygyroscopejerkmeangravitymean
+anglexgravitymean
+angleygravitymean
+anglezgravitymean
